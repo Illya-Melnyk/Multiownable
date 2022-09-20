@@ -52,7 +52,7 @@ contract MultiOwnable {
         require(!promotedCandidate[_newCandidate], "Already candidate");
         require(!owner[_newCandidate], "Already owner");
         promotedCandidate[_newCandidate] = true;
-        if(promotedCandidate[_newCandidate] = true) {
+        if(promotedCandidate[_newCandidate] == true) {
         confirmedCandidate = _newCandidate;
          promotedCandidate[_newCandidate] = false;
         }
